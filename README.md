@@ -11,8 +11,8 @@ The `ForegroundPatternScanner.cpp` program utilizes Windows APIs to retrieve inf
 To use this project, you can clone the repository and compile it using a C++ compiler:
 
 ```bash
-git clone https://github.com/NIR3X/ForegroundPatternScanner.cpp --recurse-submodules
-cd ForegroundPatternScanner.cpp
+git clone https://github.com/NIR3X/Foreground-Pattern-Scanner --recurse-submodules
+cd Foreground-Pattern-Scanner
 make
 ```
 
