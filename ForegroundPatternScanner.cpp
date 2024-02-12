@@ -7,7 +7,7 @@ static __forceinline std::wstring GetFilePathByWindow(HWND hWnd) {
 	DWORD pid;
 	GetWindowThreadProcessId(hWnd, &pid);
 
-	HANDLE hProc = OpenProcess(PROCESS_QUERY_INFORMATION | PROCESS_VM_READ, FALSE, pid);
+	HANDLE hProc = OpenProcess(PROCESS_QUERY_INFORMATION, FALSE, pid);
 	if (!hProc) {
 		return {};
 	}
