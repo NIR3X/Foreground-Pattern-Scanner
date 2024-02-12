@@ -12,7 +12,7 @@ static __forceinline std::wstring GetFilePathByWindow(HWND hWnd) {
 		return {};
 	}
 
-	std::wstring path = {};
+	std::wstring path;
 	path.resize(MAX_PATH);
 	path.resize(GetModuleFileNameExW(hProc, NULL, path.data(), MAX_PATH));
 	CloseHandle(hProc);
