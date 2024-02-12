@@ -1,0 +1,6 @@
+[submodule "FastPatternsScanner.cpp"]
+	path = FastPatternsScanner.cpp
+	url = https://github.com/NIR3X/FastPatternsScanner.cpp
+[submodule "FileMapping.cpp"]
+	path = FileMapping.cpp
+	url = https://github.com/NIR3X/FileMapping.cpp
