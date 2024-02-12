@@ -71,7 +71,7 @@ int main() {
 		} // Binary Ninja
 	});
 
-	HWND prevHWnd = nullptr;
+	HWND prevHWnd = NULL;
 	for (;;) {
 		HWND currHWnd = GetForegroundWindow();
 		if (prevHWnd != currHWnd) {
