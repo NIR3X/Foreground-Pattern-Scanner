@@ -30,7 +30,8 @@ Example Patterns
 The program comes preconfigured with patterns representing signatures of various applications such as Cheat Engine, x64dbg, Process Hacker, OllyDbg, Scylla, IDA, Extreme Injector v3, CrySearch, Squalr, and Binary Ninja. These patterns can be customized or extended as needed.
 
 ## License
-[![GNU AGPLv3 Image](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.html)  
+
+[![GNU AGPLv3 Image](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.html)
 
 This program is Free Software: You can use, study share and improve it at your
 will. Specifically you can redistribute and/or modify it under the terms of the
